@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRBNB Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://devinfo.in/wp-content/uploads/job-manager-uploads/company_logo/2022/04/airbnb.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo" >
+                <img src="https://devinfo.in/wp-content/uploads/job-manager-uploads/company_logo/2022/04/airbnb.png" alt="Logo" class="logo">
+                <span class="logo">airbnb</span>
+            </a>
+
+            <ul class="nav-links">
+            <li><a href="#">Stays</a></li>
+            <li><a href="#">Experiences</a></li>
+            </ul>
+
+            <div class="menu-container">
+                <button id="profile-icon" class="profile-icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcShqXjXGXwYXi-h7IgrLyUkhbG47qp-WVhw&s" alt="..." class="profile-img">
+                  <img src="https://e7.pngegg.com/pngimages/722/101/png-clipart-computer-icons-user-profile-circle-abstract-miscellaneous-rim-thumbnail.png" alt="Profile Icon" class="profile-img">
+                </button>
+                <ul id="dropdown-menu" class="dropdown hidden">
+                  <li><a href="#">Sign up</a></li>
+                  <li><a href="#">Log in</a></li>
+                  <li><a href="#">Airbnb your home</a></li>
+                  <li><a href="#">Host an experience</a></li>
+                  <li><a href="#">Help Centre</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Where" id="where-input">
+                <span class="clear-button" onclick="clearSearch()">&#x2716;</span>
+                <div class="where-dropdown hidden">
+                    <p class="dropdown-title">Suggested destinations</p>
+                    <ul class="suggestions-list">
+                        <li class="suggestion-item">
+                            <img src="placeholder.com" alt="Bangkok Icon" class="suggestion-icon">
+                            <div>
+                                <p class="destination-title">Bangkok, Thailand</p>
+                                <p class="destination-description">For sights like Grand Palace</p>
+                            </div>
+                        </li>
+                        <li class="suggestion-item">
+                            <img src="placeholder.com" alt="Bangkok Icon" class="suggestion-icon">
+                            <div>
+                                <p class="destination-title">Puducherry, India</p>
+                                <p class="destination-description">For sights of pristine beaches</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <input type="date" placeholder="Check-in">
+                <input type="date" placeholder="Check-out">
+                <input type="number" placeholder="Guests" min="1">
+                <button class="search-button">
+                    <img src="https://icon-library.com/images/search-bar-icon-png/search-bar-icon-png-16.jpg" alt="Search" class="search-img">
+                  </button>
+            </div>
+            
+        </nav>
+        <nav class="navbar">
+            <ul>
+                <li class="active">Amazing pools</li>
+                <li>Icons</li>
+                <li>Beachfront</li>
+                <li>Tiny homes</li>
+                <li>National parks</li>
+                <li>Beach</li>
+                <li>Amazing views</li>
+                <li>Farms</li>
+                <li>OMG!</li>
+                <li>Countryside</li>
+                <li>Luxe</li>
+                <li>castles</li>
+                <li>islands</li>
+            </ul>
+            <div class="filters-toggle">
+                <button>Filters</button>
+                <label>
+                    <input type="checkbox"> Display total before taxes
+                </label>
+            </div>
+        </nav>
+        <nav class="card-grid"
+            <div class="grid">
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1114237414014272578/original/927f5ab5-9b4f-4680-8c9a-25c8b53e0311.jpeg?im_w=720&im_format=avif" alt="Chennai, India">
+                        <span class="badge">Guest favorite</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Chennai, India</h3>
+                        <p>26 kilometres away</p>
+                        <p>8–13 Feb</p>
+                        <p class="price">₹21,979 night</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI3MjExNTA1NjQ0NjU5NDYwNA%3D%3D/original/5f91a034-ad10-4aee-9f6b-dce101a12d84.jpeg?im_w=720&im_format=avif" alt="Nandi Hills, India">
+                        <span class="badge">Guest favorite</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Nandi Hills, India</h3>
+                        <p>283 kilometres away</p>
+                        <p>24 Feb –1 Mar</p>
+                        <p class="price">₹10,171 night</p>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-1188312740817268486/original/8ebd0927-60ab-42e8-af42-e29f5a7603c1.jpeg?im_w=720&im_format=avif" alt="Bengaluru, India">
+                    </div>
+                    <div class="card-content">
+                        <h3>Bengaluru, India</h3>
+                        <p>283 kilometres away</p>
+                        <p>2–7 Feb</p>
+                        <p class="price">₹13,694 night</p>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div class="image-container">
+                        <img src="https://a0.muscache.com/im/pictures/20e801d0-0385-4764-9d4c-f5e5a7cd4578.jpg?im_w=720&im_format=avif" alt="Bengaluru Urban, India">
+                    </div>
+                    <div class="card-content">
+                        <h3>Bengaluru Urban, India</h3>
+                        <p>297 kilometres away</p>
+                        <p>2–7 Feb</p>
+                        <p class="price">₹17,802 night</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</body>
+</html>
