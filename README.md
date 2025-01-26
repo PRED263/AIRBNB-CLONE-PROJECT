@@ -21,7 +21,6 @@ This project is a frontend clone of Airbnb's homepage that i created using HTML,
 # Credits/License:
 - Inspired by Airbnb's official website.
 - This project is created for educational purposes only. It is not intended for commercial use and does not infringe on Airbnb's copyrights or trademarks.
-- Icons from [Font Awesome](https://fontawesome.com/).
 
 ----
 
