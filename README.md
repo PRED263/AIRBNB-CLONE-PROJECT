@@ -13,10 +13,6 @@ This project is a frontend clone of Airbnb's homepage that i created using HTML,
 # Some problem faced:
 - Aligning UI components consistently using CSS.
 - Debugging z-index issues with dropdowns and sticky elements.
-
-# Future improvements:
-- Implement animations for better interactivity.
-- Optimize performance for faster load times.
   
 # Credits/License:
 - Inspired by Airbnb's official website.
